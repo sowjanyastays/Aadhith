@@ -1,0 +1,30 @@
+
+
+.split {
+  height: 100vh;
+}
+
+.left, .right {
+  padding: 20px;
+}
+
+.left {
+  background-color: #f8f9fa;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the gif covers the area without distortion */
+}
+
+/* Styling for labels */
+.form-label {
+  color: white; /* Set label color to white */
+}
